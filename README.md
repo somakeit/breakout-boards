@@ -2,7 +2,7 @@ Breakout Boards
 ===============
 So Make it branded breakout boards to convert SMD parts to 0.1" pin pitch for breadboards.
 
-![preview](https://github.com/somakeit/breakout-boards/master/raw/preview.png)
+![preview](https://github.com/somakeit/breakout-boards/raw/master/preview.png)
 
 opyright So Make It Ltd. 2014.
 
