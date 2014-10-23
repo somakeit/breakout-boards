@@ -4,7 +4,7 @@ So Make it branded breakout boards to convert SMD parts to 0.1" pin pitch for br
 
 ![preview](https://github.com/somakeit/breakout-boards/raw/master/preview.jpg)
 
-opyright So Make It Ltd. 2014.
+Copyright So Make It Ltd. 2014.
 
 This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
 
