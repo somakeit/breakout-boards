@@ -9,42 +9,42 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.002" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -60,296 +60,300 @@
 <plain>
 <wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
-<rectangle x1="16.5735" y1="13.2715" x2="18.8087" y2="13.2969" layer="1"/>
-<rectangle x1="16.4973" y1="13.2969" x2="18.8849" y2="13.3223" layer="1"/>
-<rectangle x1="16.4465" y1="13.3223" x2="18.9357" y2="13.3477" layer="1"/>
-<rectangle x1="16.3957" y1="13.3477" x2="18.9865" y2="13.3731" layer="1"/>
-<rectangle x1="16.3703" y1="13.3731" x2="19.0119" y2="13.3985" layer="1"/>
-<rectangle x1="16.3449" y1="13.3985" x2="19.0373" y2="13.4239" layer="1"/>
-<rectangle x1="16.2941" y1="13.4239" x2="19.0881" y2="13.4493" layer="1"/>
-<rectangle x1="16.2687" y1="13.4493" x2="19.1135" y2="13.4747" layer="1"/>
-<rectangle x1="16.2433" y1="13.4747" x2="19.1389" y2="13.5001" layer="1"/>
-<rectangle x1="16.2179" y1="13.5001" x2="19.1643" y2="13.5255" layer="1"/>
-<rectangle x1="16.2179" y1="13.5255" x2="19.1643" y2="13.5509" layer="1"/>
-<rectangle x1="16.1925" y1="13.5509" x2="19.1897" y2="13.5763" layer="1"/>
-<rectangle x1="16.1671" y1="13.5763" x2="19.2151" y2="13.6017" layer="1"/>
-<rectangle x1="16.1417" y1="13.6017" x2="19.2405" y2="13.6271" layer="1"/>
-<rectangle x1="16.1417" y1="13.6271" x2="19.2405" y2="13.6525" layer="1"/>
-<rectangle x1="16.1163" y1="13.6525" x2="19.2659" y2="13.6779" layer="1"/>
-<rectangle x1="16.1163" y1="13.6779" x2="19.2659" y2="13.7033" layer="1"/>
-<rectangle x1="16.0909" y1="13.7033" x2="19.2913" y2="13.7287" layer="1"/>
-<rectangle x1="16.0909" y1="13.7287" x2="19.2913" y2="13.7541" layer="1"/>
-<rectangle x1="16.0909" y1="13.7541" x2="19.2913" y2="13.7795" layer="1"/>
-<rectangle x1="16.0655" y1="13.7795" x2="19.3167" y2="13.8049" layer="1"/>
-<rectangle x1="16.0655" y1="13.8049" x2="19.3167" y2="13.8303" layer="1"/>
-<rectangle x1="16.0655" y1="13.8303" x2="17.2593" y2="13.8557" layer="1"/>
-<rectangle x1="17.2847" y1="13.8303" x2="18.0975" y2="13.8557" layer="1"/>
-<rectangle x1="18.1229" y1="13.8303" x2="19.3167" y2="13.8557" layer="1"/>
-<rectangle x1="16.0655" y1="13.8557" x2="17.2339" y2="13.8811" layer="1"/>
-<rectangle x1="17.2847" y1="13.8557" x2="18.0975" y2="13.8811" layer="1"/>
-<rectangle x1="18.1483" y1="13.8557" x2="19.3167" y2="13.8811" layer="1"/>
-<rectangle x1="16.0655" y1="13.8811" x2="17.2085" y2="13.9065" layer="1"/>
-<rectangle x1="17.2847" y1="13.8811" x2="18.0975" y2="13.9065" layer="1"/>
-<rectangle x1="18.1737" y1="13.8811" x2="19.3167" y2="13.9065" layer="1"/>
-<rectangle x1="16.0655" y1="13.9065" x2="17.1831" y2="13.9319" layer="1"/>
-<rectangle x1="17.2847" y1="13.9065" x2="18.0975" y2="13.9319" layer="1"/>
-<rectangle x1="18.1991" y1="13.9065" x2="19.3167" y2="13.9319" layer="1"/>
-<rectangle x1="16.0655" y1="13.9319" x2="17.1577" y2="13.9573" layer="1"/>
-<rectangle x1="17.2847" y1="13.9319" x2="18.0975" y2="13.9573" layer="1"/>
-<rectangle x1="18.2245" y1="13.9319" x2="19.3167" y2="13.9573" layer="1"/>
-<rectangle x1="16.0655" y1="13.9573" x2="17.1323" y2="13.9827" layer="1"/>
-<rectangle x1="17.2847" y1="13.9573" x2="18.0975" y2="13.9827" layer="1"/>
-<rectangle x1="18.2499" y1="13.9573" x2="19.3167" y2="13.9827" layer="1"/>
-<rectangle x1="16.0655" y1="13.9827" x2="17.1069" y2="14.0081" layer="1"/>
-<rectangle x1="17.2847" y1="13.9827" x2="18.0975" y2="14.0081" layer="1"/>
-<rectangle x1="18.2753" y1="13.9827" x2="19.3167" y2="14.0081" layer="1"/>
-<rectangle x1="16.0655" y1="14.0081" x2="17.1069" y2="14.0335" layer="1"/>
-<rectangle x1="17.2847" y1="14.0081" x2="18.0975" y2="14.0335" layer="1"/>
-<rectangle x1="18.2753" y1="14.0081" x2="19.3167" y2="14.0335" layer="1"/>
-<rectangle x1="16.0655" y1="14.0335" x2="17.0815" y2="14.0589" layer="1"/>
-<rectangle x1="17.2847" y1="14.0335" x2="18.0975" y2="14.0589" layer="1"/>
-<rectangle x1="18.3007" y1="14.0335" x2="19.3167" y2="14.0589" layer="1"/>
-<rectangle x1="16.0655" y1="14.0589" x2="17.0561" y2="14.0843" layer="1"/>
-<rectangle x1="17.2847" y1="14.0589" x2="18.0975" y2="14.0843" layer="1"/>
-<rectangle x1="18.3261" y1="14.0589" x2="19.3167" y2="14.0843" layer="1"/>
-<rectangle x1="16.0655" y1="14.0843" x2="17.0307" y2="14.1097" layer="1"/>
-<rectangle x1="17.2847" y1="14.0843" x2="18.0975" y2="14.1097" layer="1"/>
-<rectangle x1="18.3515" y1="14.0843" x2="19.3167" y2="14.1097" layer="1"/>
-<rectangle x1="16.0655" y1="14.1097" x2="17.0053" y2="14.1351" layer="1"/>
-<rectangle x1="17.2847" y1="14.1097" x2="18.0975" y2="14.1351" layer="1"/>
-<rectangle x1="18.3769" y1="14.1097" x2="19.3167" y2="14.1351" layer="1"/>
-<rectangle x1="16.0655" y1="14.1351" x2="16.9799" y2="14.1605" layer="1"/>
-<rectangle x1="17.2847" y1="14.1351" x2="18.0975" y2="14.1605" layer="1"/>
-<rectangle x1="18.4023" y1="14.1351" x2="19.3167" y2="14.1605" layer="1"/>
-<rectangle x1="16.0655" y1="14.1605" x2="16.9545" y2="14.1859" layer="1"/>
-<rectangle x1="17.2847" y1="14.1605" x2="18.0975" y2="14.1859" layer="1"/>
-<rectangle x1="18.4277" y1="14.1605" x2="19.3167" y2="14.1859" layer="1"/>
-<rectangle x1="16.0655" y1="14.1859" x2="16.9291" y2="14.2113" layer="1"/>
-<rectangle x1="17.2847" y1="14.1859" x2="18.0975" y2="14.2113" layer="1"/>
-<rectangle x1="18.4531" y1="14.1859" x2="19.3167" y2="14.2113" layer="1"/>
-<rectangle x1="16.0655" y1="14.2113" x2="16.9037" y2="14.2367" layer="1"/>
-<rectangle x1="17.2847" y1="14.2113" x2="18.0975" y2="14.2367" layer="1"/>
-<rectangle x1="18.4785" y1="14.2113" x2="19.3167" y2="14.2367" layer="1"/>
-<rectangle x1="16.0655" y1="14.2367" x2="16.8783" y2="14.2621" layer="1"/>
-<rectangle x1="17.2847" y1="14.2367" x2="18.0975" y2="14.2621" layer="1"/>
-<rectangle x1="18.5039" y1="14.2367" x2="19.3167" y2="14.2621" layer="1"/>
-<rectangle x1="16.0655" y1="14.2621" x2="16.8529" y2="14.2875" layer="1"/>
-<rectangle x1="17.2847" y1="14.2621" x2="18.0975" y2="14.2875" layer="1"/>
-<rectangle x1="18.5293" y1="14.2621" x2="19.3167" y2="14.2875" layer="1"/>
-<rectangle x1="16.0655" y1="14.2875" x2="16.8275" y2="14.3129" layer="1"/>
-<rectangle x1="17.2847" y1="14.2875" x2="18.0975" y2="14.3129" layer="1"/>
-<rectangle x1="18.5547" y1="14.2875" x2="19.3167" y2="14.3129" layer="1"/>
-<rectangle x1="16.0655" y1="14.3129" x2="16.8021" y2="14.3383" layer="1"/>
-<rectangle x1="17.2847" y1="14.3129" x2="18.0975" y2="14.3383" layer="1"/>
-<rectangle x1="18.5801" y1="14.3129" x2="19.3167" y2="14.3383" layer="1"/>
-<rectangle x1="16.0655" y1="14.3383" x2="16.7767" y2="14.3637" layer="1"/>
-<rectangle x1="17.2847" y1="14.3383" x2="18.0975" y2="14.3637" layer="1"/>
-<rectangle x1="18.6055" y1="14.3383" x2="19.3167" y2="14.3637" layer="1"/>
-<rectangle x1="16.0655" y1="14.3637" x2="16.7513" y2="14.3891" layer="1"/>
-<rectangle x1="17.2847" y1="14.3637" x2="18.0975" y2="14.3891" layer="1"/>
-<rectangle x1="18.6309" y1="14.3637" x2="19.3167" y2="14.3891" layer="1"/>
-<rectangle x1="16.0655" y1="14.3891" x2="16.7259" y2="14.4145" layer="1"/>
-<rectangle x1="17.2847" y1="14.3891" x2="18.0975" y2="14.4145" layer="1"/>
-<rectangle x1="18.6563" y1="14.3891" x2="19.3167" y2="14.4145" layer="1"/>
-<rectangle x1="16.0655" y1="14.4145" x2="16.7005" y2="14.4399" layer="1"/>
-<rectangle x1="17.2847" y1="14.4145" x2="18.0975" y2="14.4399" layer="1"/>
-<rectangle x1="18.6817" y1="14.4145" x2="19.3167" y2="14.4399" layer="1"/>
-<rectangle x1="16.0655" y1="14.4399" x2="16.7005" y2="14.4653" layer="1"/>
-<rectangle x1="17.2847" y1="14.4399" x2="18.0975" y2="14.4653" layer="1"/>
-<rectangle x1="18.6817" y1="14.4399" x2="19.3167" y2="14.4653" layer="1"/>
-<rectangle x1="16.0655" y1="14.4653" x2="16.7005" y2="14.4907" layer="1"/>
-<rectangle x1="17.2847" y1="14.4653" x2="18.0975" y2="14.4907" layer="1"/>
-<rectangle x1="18.6817" y1="14.4653" x2="19.3167" y2="14.4907" layer="1"/>
-<rectangle x1="16.0655" y1="14.4907" x2="16.7005" y2="14.5161" layer="1"/>
-<rectangle x1="17.2847" y1="14.4907" x2="18.0975" y2="14.5161" layer="1"/>
-<rectangle x1="18.6817" y1="14.4907" x2="19.3167" y2="14.5161" layer="1"/>
-<rectangle x1="16.0655" y1="14.5161" x2="16.7005" y2="14.5415" layer="1"/>
-<rectangle x1="17.2847" y1="14.5161" x2="18.0975" y2="14.5415" layer="1"/>
-<rectangle x1="18.6817" y1="14.5161" x2="19.3167" y2="14.5415" layer="1"/>
-<rectangle x1="16.0655" y1="14.5415" x2="16.7005" y2="14.5669" layer="1"/>
-<rectangle x1="17.2847" y1="14.5415" x2="18.0975" y2="14.5669" layer="1"/>
-<rectangle x1="18.6817" y1="14.5415" x2="19.3167" y2="14.5669" layer="1"/>
-<rectangle x1="16.0655" y1="14.5669" x2="16.7005" y2="14.5923" layer="1"/>
-<rectangle x1="17.2847" y1="14.5669" x2="18.0975" y2="14.5923" layer="1"/>
-<rectangle x1="18.6817" y1="14.5669" x2="19.3167" y2="14.5923" layer="1"/>
-<rectangle x1="16.0655" y1="14.5923" x2="16.7005" y2="14.6177" layer="1"/>
-<rectangle x1="17.2847" y1="14.5923" x2="18.0975" y2="14.6177" layer="1"/>
-<rectangle x1="18.6817" y1="14.5923" x2="19.3167" y2="14.6177" layer="1"/>
-<rectangle x1="16.0655" y1="14.6177" x2="16.7005" y2="14.6431" layer="1"/>
-<rectangle x1="17.2847" y1="14.6177" x2="18.0975" y2="14.6431" layer="1"/>
-<rectangle x1="18.6817" y1="14.6177" x2="19.3167" y2="14.6431" layer="1"/>
-<rectangle x1="16.0655" y1="14.6431" x2="16.7005" y2="14.6685" layer="1"/>
-<rectangle x1="17.2847" y1="14.6431" x2="18.0975" y2="14.6685" layer="1"/>
-<rectangle x1="18.6817" y1="14.6431" x2="19.3167" y2="14.6685" layer="1"/>
-<rectangle x1="16.0655" y1="14.6685" x2="16.7005" y2="14.6939" layer="1"/>
-<rectangle x1="17.2847" y1="14.6685" x2="18.0975" y2="14.6939" layer="1"/>
-<rectangle x1="18.6817" y1="14.6685" x2="19.3167" y2="14.6939" layer="1"/>
-<rectangle x1="16.0655" y1="14.6939" x2="16.7005" y2="14.7193" layer="1"/>
-<rectangle x1="17.2847" y1="14.6939" x2="18.0975" y2="14.7193" layer="1"/>
-<rectangle x1="18.6817" y1="14.6939" x2="19.3167" y2="14.7193" layer="1"/>
-<rectangle x1="16.0655" y1="14.7193" x2="16.7005" y2="14.7447" layer="1"/>
-<rectangle x1="17.2847" y1="14.7193" x2="18.0975" y2="14.7447" layer="1"/>
-<rectangle x1="18.6817" y1="14.7193" x2="19.3167" y2="14.7447" layer="1"/>
-<rectangle x1="16.0655" y1="14.7447" x2="16.7005" y2="14.7701" layer="1"/>
-<rectangle x1="17.2847" y1="14.7447" x2="18.0975" y2="14.7701" layer="1"/>
-<rectangle x1="18.6817" y1="14.7447" x2="19.3167" y2="14.7701" layer="1"/>
-<rectangle x1="16.0655" y1="14.7701" x2="16.7005" y2="14.7955" layer="1"/>
-<rectangle x1="17.2847" y1="14.7701" x2="18.0975" y2="14.7955" layer="1"/>
-<rectangle x1="18.6817" y1="14.7701" x2="19.3167" y2="14.7955" layer="1"/>
-<rectangle x1="16.0655" y1="14.7955" x2="16.7005" y2="14.8209" layer="1"/>
-<rectangle x1="17.2847" y1="14.7955" x2="18.0975" y2="14.8209" layer="1"/>
-<rectangle x1="18.6817" y1="14.7955" x2="19.3167" y2="14.8209" layer="1"/>
-<rectangle x1="16.0655" y1="14.8209" x2="16.7005" y2="14.8463" layer="1"/>
-<rectangle x1="17.2847" y1="14.8209" x2="18.0975" y2="14.8463" layer="1"/>
-<rectangle x1="18.6817" y1="14.8209" x2="19.3167" y2="14.8463" layer="1"/>
-<rectangle x1="16.0655" y1="14.8463" x2="16.7005" y2="14.8717" layer="1"/>
-<rectangle x1="17.2847" y1="14.8463" x2="18.0975" y2="14.8717" layer="1"/>
-<rectangle x1="18.6817" y1="14.8463" x2="19.3167" y2="14.8717" layer="1"/>
-<rectangle x1="16.0655" y1="14.8717" x2="16.7005" y2="14.8971" layer="1"/>
-<rectangle x1="17.2847" y1="14.8717" x2="18.0975" y2="14.8971" layer="1"/>
-<rectangle x1="18.6817" y1="14.8717" x2="19.3167" y2="14.8971" layer="1"/>
-<rectangle x1="16.0655" y1="14.8971" x2="16.7005" y2="14.9225" layer="1"/>
-<rectangle x1="17.2847" y1="14.8971" x2="18.0975" y2="14.9225" layer="1"/>
-<rectangle x1="18.6817" y1="14.8971" x2="19.3167" y2="14.9225" layer="1"/>
-<rectangle x1="16.0655" y1="14.9225" x2="16.7005" y2="14.9479" layer="1"/>
-<rectangle x1="17.2847" y1="14.9225" x2="18.0975" y2="14.9479" layer="1"/>
-<rectangle x1="18.6817" y1="14.9225" x2="19.3167" y2="14.9479" layer="1"/>
-<rectangle x1="16.0655" y1="14.9479" x2="16.7005" y2="14.9733" layer="1"/>
-<rectangle x1="17.2847" y1="14.9479" x2="18.0975" y2="14.9733" layer="1"/>
-<rectangle x1="18.6817" y1="14.9479" x2="19.3167" y2="14.9733" layer="1"/>
-<rectangle x1="16.0655" y1="14.9733" x2="16.7005" y2="14.9987" layer="1"/>
-<rectangle x1="17.2847" y1="14.9733" x2="18.0975" y2="14.9987" layer="1"/>
-<rectangle x1="18.6817" y1="14.9733" x2="19.3167" y2="14.9987" layer="1"/>
-<rectangle x1="16.0655" y1="14.9987" x2="16.7005" y2="15.0241" layer="1"/>
-<rectangle x1="17.2847" y1="14.9987" x2="18.0975" y2="15.0241" layer="1"/>
-<rectangle x1="18.6817" y1="14.9987" x2="19.3167" y2="15.0241" layer="1"/>
-<rectangle x1="16.0655" y1="15.0241" x2="16.7005" y2="15.0495" layer="1"/>
-<rectangle x1="17.3101" y1="15.0241" x2="18.0721" y2="15.0495" layer="1"/>
-<rectangle x1="18.6817" y1="15.0241" x2="19.3167" y2="15.0495" layer="1"/>
-<rectangle x1="16.0655" y1="15.0495" x2="16.7005" y2="15.0749" layer="1"/>
-<rectangle x1="17.3355" y1="15.0495" x2="18.0467" y2="15.0749" layer="1"/>
-<rectangle x1="18.6817" y1="15.0495" x2="19.3167" y2="15.0749" layer="1"/>
-<rectangle x1="16.0655" y1="15.0749" x2="16.7005" y2="15.1003" layer="1"/>
-<rectangle x1="17.3609" y1="15.0749" x2="18.0213" y2="15.1003" layer="1"/>
-<rectangle x1="18.6817" y1="15.0749" x2="19.3167" y2="15.1003" layer="1"/>
-<rectangle x1="16.0655" y1="15.1003" x2="16.7005" y2="15.1257" layer="1"/>
-<rectangle x1="17.3863" y1="15.1003" x2="17.9959" y2="15.1257" layer="1"/>
-<rectangle x1="18.6817" y1="15.1003" x2="19.3167" y2="15.1257" layer="1"/>
-<rectangle x1="16.0655" y1="15.1257" x2="16.7005" y2="15.1511" layer="1"/>
-<rectangle x1="17.4117" y1="15.1257" x2="17.9705" y2="15.1511" layer="1"/>
-<rectangle x1="18.6817" y1="15.1257" x2="19.3167" y2="15.1511" layer="1"/>
-<rectangle x1="16.0655" y1="15.1511" x2="16.7005" y2="15.1765" layer="1"/>
-<rectangle x1="17.4371" y1="15.1511" x2="17.9451" y2="15.1765" layer="1"/>
-<rectangle x1="18.6817" y1="15.1511" x2="19.3167" y2="15.1765" layer="1"/>
-<rectangle x1="16.0655" y1="15.1765" x2="16.7005" y2="15.2019" layer="1"/>
-<rectangle x1="17.4625" y1="15.1765" x2="17.9197" y2="15.2019" layer="1"/>
-<rectangle x1="18.6817" y1="15.1765" x2="19.3167" y2="15.2019" layer="1"/>
-<rectangle x1="16.0655" y1="15.2019" x2="16.7005" y2="15.2273" layer="1"/>
-<rectangle x1="17.4879" y1="15.2019" x2="17.8943" y2="15.2273" layer="1"/>
-<rectangle x1="18.6817" y1="15.2019" x2="19.3167" y2="15.2273" layer="1"/>
-<rectangle x1="16.0655" y1="15.2273" x2="16.7005" y2="15.2527" layer="1"/>
-<rectangle x1="18.6817" y1="15.2273" x2="19.3167" y2="15.2527" layer="1"/>
-<rectangle x1="16.0655" y1="15.2527" x2="16.7259" y2="15.2781" layer="1"/>
-<rectangle x1="18.6563" y1="15.2527" x2="19.3167" y2="15.2781" layer="1"/>
-<rectangle x1="16.0655" y1="15.2781" x2="16.7513" y2="15.3035" layer="1"/>
-<rectangle x1="18.6309" y1="15.2781" x2="19.3167" y2="15.3035" layer="1"/>
-<rectangle x1="16.0655" y1="15.3035" x2="16.7767" y2="15.3289" layer="1"/>
-<rectangle x1="18.6055" y1="15.3035" x2="19.3167" y2="15.3289" layer="1"/>
-<rectangle x1="16.0655" y1="15.3289" x2="16.8021" y2="15.3543" layer="1"/>
-<rectangle x1="18.5801" y1="15.3289" x2="19.3167" y2="15.3543" layer="1"/>
-<rectangle x1="16.0655" y1="15.3543" x2="16.8275" y2="15.3797" layer="1"/>
-<rectangle x1="18.5547" y1="15.3543" x2="19.3167" y2="15.3797" layer="1"/>
-<rectangle x1="16.0655" y1="15.3797" x2="16.8529" y2="15.4051" layer="1"/>
-<rectangle x1="18.5293" y1="15.3797" x2="19.3167" y2="15.4051" layer="1"/>
-<rectangle x1="16.0655" y1="15.4051" x2="16.8783" y2="15.4305" layer="1"/>
-<rectangle x1="18.5039" y1="15.4051" x2="19.3167" y2="15.4305" layer="1"/>
-<rectangle x1="16.0655" y1="15.4305" x2="16.9037" y2="15.4559" layer="1"/>
-<rectangle x1="18.4785" y1="15.4305" x2="19.3167" y2="15.4559" layer="1"/>
-<rectangle x1="16.0655" y1="15.4559" x2="16.9291" y2="15.4813" layer="1"/>
-<rectangle x1="18.4531" y1="15.4559" x2="19.3167" y2="15.4813" layer="1"/>
-<rectangle x1="16.0655" y1="15.4813" x2="16.9545" y2="15.5067" layer="1"/>
-<rectangle x1="18.4277" y1="15.4813" x2="19.3167" y2="15.5067" layer="1"/>
-<rectangle x1="16.0655" y1="15.5067" x2="16.9799" y2="15.5321" layer="1"/>
-<rectangle x1="18.4023" y1="15.5067" x2="19.3167" y2="15.5321" layer="1"/>
-<rectangle x1="16.0655" y1="15.5321" x2="17.0053" y2="15.5575" layer="1"/>
-<rectangle x1="18.3769" y1="15.5321" x2="19.3167" y2="15.5575" layer="1"/>
-<rectangle x1="16.0655" y1="15.5575" x2="17.0307" y2="15.5829" layer="1"/>
-<rectangle x1="18.3515" y1="15.5575" x2="19.3167" y2="15.5829" layer="1"/>
-<rectangle x1="16.0655" y1="15.5829" x2="17.0561" y2="15.6083" layer="1"/>
-<rectangle x1="18.3261" y1="15.5829" x2="19.3167" y2="15.6083" layer="1"/>
-<rectangle x1="16.0655" y1="15.6083" x2="17.0815" y2="15.6337" layer="1"/>
-<rectangle x1="18.3007" y1="15.6083" x2="19.3167" y2="15.6337" layer="1"/>
-<rectangle x1="16.0655" y1="15.6337" x2="17.1069" y2="15.6591" layer="1"/>
-<rectangle x1="18.2753" y1="15.6337" x2="19.3167" y2="15.6591" layer="1"/>
-<rectangle x1="16.0655" y1="15.6591" x2="17.1323" y2="15.6845" layer="1"/>
-<rectangle x1="18.2499" y1="15.6591" x2="19.3167" y2="15.6845" layer="1"/>
-<rectangle x1="16.0655" y1="15.6845" x2="17.1577" y2="15.7099" layer="1"/>
-<rectangle x1="18.2499" y1="15.6845" x2="19.3167" y2="15.7099" layer="1"/>
-<rectangle x1="16.0655" y1="15.7099" x2="17.1831" y2="15.7353" layer="1"/>
-<rectangle x1="18.2245" y1="15.7099" x2="19.3167" y2="15.7353" layer="1"/>
-<rectangle x1="16.0655" y1="15.7353" x2="17.2085" y2="15.7607" layer="1"/>
-<rectangle x1="18.1991" y1="15.7353" x2="19.3167" y2="15.7607" layer="1"/>
-<rectangle x1="16.0655" y1="15.7607" x2="17.2339" y2="15.7861" layer="1"/>
-<rectangle x1="18.1737" y1="15.7607" x2="19.3167" y2="15.7861" layer="1"/>
-<rectangle x1="16.0655" y1="15.7861" x2="17.2593" y2="15.8115" layer="1"/>
-<rectangle x1="18.1483" y1="15.7861" x2="19.3167" y2="15.8115" layer="1"/>
-<rectangle x1="16.0655" y1="15.8115" x2="17.2847" y2="15.8369" layer="1"/>
-<rectangle x1="18.1229" y1="15.8115" x2="19.3167" y2="15.8369" layer="1"/>
-<rectangle x1="16.0655" y1="15.8369" x2="17.2847" y2="15.8623" layer="1"/>
-<rectangle x1="18.1229" y1="15.8369" x2="19.3167" y2="15.8623" layer="1"/>
-<rectangle x1="16.0655" y1="15.8623" x2="17.2847" y2="15.8877" layer="1"/>
-<rectangle x1="18.1229" y1="15.8623" x2="19.3167" y2="15.8877" layer="1"/>
-<rectangle x1="16.0655" y1="15.8877" x2="17.2847" y2="15.9131" layer="1"/>
-<rectangle x1="18.1229" y1="15.8877" x2="19.3167" y2="15.9131" layer="1"/>
-<rectangle x1="16.0655" y1="15.9131" x2="17.2847" y2="15.9385" layer="1"/>
-<rectangle x1="18.1229" y1="15.9131" x2="19.3167" y2="15.9385" layer="1"/>
-<rectangle x1="16.0655" y1="15.9385" x2="17.2847" y2="15.9639" layer="1"/>
-<rectangle x1="18.1229" y1="15.9385" x2="19.3167" y2="15.9639" layer="1"/>
-<rectangle x1="16.0655" y1="15.9639" x2="17.2847" y2="15.9893" layer="1"/>
-<rectangle x1="18.1229" y1="15.9639" x2="19.3167" y2="15.9893" layer="1"/>
-<rectangle x1="16.0655" y1="15.9893" x2="17.2847" y2="16.0147" layer="1"/>
-<rectangle x1="18.1229" y1="15.9893" x2="19.3167" y2="16.0147" layer="1"/>
-<rectangle x1="16.0909" y1="16.0147" x2="17.2847" y2="16.0401" layer="1"/>
-<rectangle x1="18.1229" y1="16.0147" x2="19.2913" y2="16.0401" layer="1"/>
-<rectangle x1="16.0909" y1="16.0401" x2="17.2847" y2="16.0655" layer="1"/>
-<rectangle x1="18.1229" y1="16.0401" x2="19.2913" y2="16.0655" layer="1"/>
-<rectangle x1="16.0909" y1="16.0655" x2="17.2847" y2="16.0909" layer="1"/>
-<rectangle x1="18.1229" y1="16.0655" x2="19.2913" y2="16.0909" layer="1"/>
-<rectangle x1="16.1163" y1="16.0909" x2="17.2847" y2="16.1163" layer="1"/>
-<rectangle x1="18.1229" y1="16.0909" x2="19.2659" y2="16.1163" layer="1"/>
-<rectangle x1="16.1163" y1="16.1163" x2="17.2847" y2="16.1417" layer="1"/>
-<rectangle x1="18.1229" y1="16.1163" x2="19.2659" y2="16.1417" layer="1"/>
-<rectangle x1="16.1417" y1="16.1417" x2="17.2847" y2="16.1671" layer="1"/>
-<rectangle x1="18.1229" y1="16.1417" x2="19.2405" y2="16.1671" layer="1"/>
-<rectangle x1="16.1417" y1="16.1671" x2="17.2847" y2="16.1925" layer="1"/>
-<rectangle x1="18.1229" y1="16.1671" x2="19.2405" y2="16.1925" layer="1"/>
-<rectangle x1="16.1671" y1="16.1925" x2="17.2847" y2="16.2179" layer="1"/>
-<rectangle x1="18.1229" y1="16.1925" x2="19.2151" y2="16.2179" layer="1"/>
-<rectangle x1="16.1925" y1="16.2179" x2="17.2847" y2="16.2433" layer="1"/>
-<rectangle x1="18.1229" y1="16.2179" x2="19.1897" y2="16.2433" layer="1"/>
-<rectangle x1="16.2179" y1="16.2433" x2="17.2847" y2="16.2687" layer="1"/>
-<rectangle x1="18.1229" y1="16.2433" x2="19.1643" y2="16.2687" layer="1"/>
-<rectangle x1="16.2179" y1="16.2687" x2="17.2847" y2="16.2941" layer="1"/>
-<rectangle x1="18.1229" y1="16.2687" x2="19.1643" y2="16.2941" layer="1"/>
-<rectangle x1="16.2433" y1="16.2941" x2="17.2847" y2="16.3195" layer="1"/>
-<rectangle x1="18.1229" y1="16.2941" x2="19.1389" y2="16.3195" layer="1"/>
-<rectangle x1="16.2687" y1="16.3195" x2="17.2847" y2="16.3449" layer="1"/>
-<rectangle x1="18.1229" y1="16.3195" x2="19.1135" y2="16.3449" layer="1"/>
-<rectangle x1="16.2941" y1="16.3449" x2="17.2847" y2="16.3703" layer="1"/>
-<rectangle x1="18.1229" y1="16.3449" x2="19.0881" y2="16.3703" layer="1"/>
-<rectangle x1="16.3449" y1="16.3703" x2="17.2847" y2="16.3957" layer="1"/>
-<rectangle x1="18.1229" y1="16.3703" x2="19.0373" y2="16.3957" layer="1"/>
-<rectangle x1="16.3703" y1="16.3957" x2="17.2847" y2="16.4211" layer="1"/>
-<rectangle x1="18.1229" y1="16.3957" x2="19.0119" y2="16.4211" layer="1"/>
-<rectangle x1="16.3957" y1="16.4211" x2="17.2847" y2="16.4465" layer="1"/>
-<rectangle x1="18.1229" y1="16.4211" x2="18.9865" y2="16.4465" layer="1"/>
-<rectangle x1="16.4465" y1="16.4465" x2="17.2847" y2="16.4719" layer="1"/>
-<rectangle x1="18.1229" y1="16.4465" x2="18.9357" y2="16.4719" layer="1"/>
-<rectangle x1="16.4973" y1="16.4719" x2="17.2847" y2="16.4973" layer="1"/>
-<rectangle x1="18.1229" y1="16.4719" x2="18.8849" y2="16.4973" layer="1"/>
-<rectangle x1="16.5735" y1="16.4973" x2="17.2847" y2="16.5227" layer="1"/>
-<rectangle x1="18.1229" y1="16.4973" x2="18.8087" y2="16.5227" layer="1"/>
-<text x="16.51" y="5.08" size="1.778" layer="1" font="vector">SO-8</text>
+<rectangle x1="5.1435" y1="9.4615" x2="7.3787" y2="9.4869" layer="1"/>
+<rectangle x1="5.0673" y1="9.4869" x2="7.4549" y2="9.5123" layer="1"/>
+<rectangle x1="5.0165" y1="9.5123" x2="7.5057" y2="9.5377" layer="1"/>
+<rectangle x1="4.9657" y1="9.5377" x2="7.5565" y2="9.5631" layer="1"/>
+<rectangle x1="4.9403" y1="9.5631" x2="7.5819" y2="9.5885" layer="1"/>
+<rectangle x1="4.9149" y1="9.5885" x2="7.6073" y2="9.6139" layer="1"/>
+<rectangle x1="4.8641" y1="9.6139" x2="7.6581" y2="9.6393" layer="1"/>
+<rectangle x1="4.8387" y1="9.6393" x2="7.6835" y2="9.6647" layer="1"/>
+<rectangle x1="4.8133" y1="9.6647" x2="7.7089" y2="9.6901" layer="1"/>
+<rectangle x1="4.7879" y1="9.6901" x2="7.7343" y2="9.7155" layer="1"/>
+<rectangle x1="4.7879" y1="9.7155" x2="7.7343" y2="9.7409" layer="1"/>
+<rectangle x1="4.7625" y1="9.7409" x2="7.7597" y2="9.7663" layer="1"/>
+<rectangle x1="4.7371" y1="9.7663" x2="7.7851" y2="9.7917" layer="1"/>
+<rectangle x1="4.7117" y1="9.7917" x2="7.8105" y2="9.8171" layer="1"/>
+<rectangle x1="4.7117" y1="9.8171" x2="7.8105" y2="9.8425" layer="1"/>
+<rectangle x1="4.6863" y1="9.8425" x2="7.8359" y2="9.8679" layer="1"/>
+<rectangle x1="4.6863" y1="9.8679" x2="7.8359" y2="9.8933" layer="1"/>
+<rectangle x1="4.6609" y1="9.8933" x2="7.8613" y2="9.9187" layer="1"/>
+<rectangle x1="4.6609" y1="9.9187" x2="7.8613" y2="9.9441" layer="1"/>
+<rectangle x1="4.6609" y1="9.9441" x2="7.8613" y2="9.9695" layer="1"/>
+<rectangle x1="4.6355" y1="9.9695" x2="7.8867" y2="9.9949" layer="1"/>
+<rectangle x1="4.6355" y1="9.9949" x2="7.8867" y2="10.0203" layer="1"/>
+<rectangle x1="4.6355" y1="10.0203" x2="5.8293" y2="10.0457" layer="1"/>
+<rectangle x1="5.8547" y1="10.0203" x2="6.6675" y2="10.0457" layer="1"/>
+<rectangle x1="6.6929" y1="10.0203" x2="7.8867" y2="10.0457" layer="1"/>
+<rectangle x1="4.6355" y1="10.0457" x2="5.8039" y2="10.0711" layer="1"/>
+<rectangle x1="5.8547" y1="10.0457" x2="6.6675" y2="10.0711" layer="1"/>
+<rectangle x1="6.7183" y1="10.0457" x2="7.8867" y2="10.0711" layer="1"/>
+<rectangle x1="4.6355" y1="10.0711" x2="5.7785" y2="10.0965" layer="1"/>
+<rectangle x1="5.8547" y1="10.0711" x2="6.6675" y2="10.0965" layer="1"/>
+<rectangle x1="6.7437" y1="10.0711" x2="7.8867" y2="10.0965" layer="1"/>
+<rectangle x1="4.6355" y1="10.0965" x2="5.7531" y2="10.1219" layer="1"/>
+<rectangle x1="5.8547" y1="10.0965" x2="6.6675" y2="10.1219" layer="1"/>
+<rectangle x1="6.7691" y1="10.0965" x2="7.8867" y2="10.1219" layer="1"/>
+<rectangle x1="4.6355" y1="10.1219" x2="5.7277" y2="10.1473" layer="1"/>
+<rectangle x1="5.8547" y1="10.1219" x2="6.6675" y2="10.1473" layer="1"/>
+<rectangle x1="6.7945" y1="10.1219" x2="7.8867" y2="10.1473" layer="1"/>
+<rectangle x1="4.6355" y1="10.1473" x2="5.7023" y2="10.1727" layer="1"/>
+<rectangle x1="5.8547" y1="10.1473" x2="6.6675" y2="10.1727" layer="1"/>
+<rectangle x1="6.8199" y1="10.1473" x2="7.8867" y2="10.1727" layer="1"/>
+<rectangle x1="4.6355" y1="10.1727" x2="5.6769" y2="10.1981" layer="1"/>
+<rectangle x1="5.8547" y1="10.1727" x2="6.6675" y2="10.1981" layer="1"/>
+<rectangle x1="6.8453" y1="10.1727" x2="7.8867" y2="10.1981" layer="1"/>
+<rectangle x1="4.6355" y1="10.1981" x2="5.6769" y2="10.2235" layer="1"/>
+<rectangle x1="5.8547" y1="10.1981" x2="6.6675" y2="10.2235" layer="1"/>
+<rectangle x1="6.8453" y1="10.1981" x2="7.8867" y2="10.2235" layer="1"/>
+<rectangle x1="4.6355" y1="10.2235" x2="5.6515" y2="10.2489" layer="1"/>
+<rectangle x1="5.8547" y1="10.2235" x2="6.6675" y2="10.2489" layer="1"/>
+<rectangle x1="6.8707" y1="10.2235" x2="7.8867" y2="10.2489" layer="1"/>
+<rectangle x1="4.6355" y1="10.2489" x2="5.6261" y2="10.2743" layer="1"/>
+<rectangle x1="5.8547" y1="10.2489" x2="6.6675" y2="10.2743" layer="1"/>
+<rectangle x1="6.8961" y1="10.2489" x2="7.8867" y2="10.2743" layer="1"/>
+<rectangle x1="4.6355" y1="10.2743" x2="5.6007" y2="10.2997" layer="1"/>
+<rectangle x1="5.8547" y1="10.2743" x2="6.6675" y2="10.2997" layer="1"/>
+<rectangle x1="6.9215" y1="10.2743" x2="7.8867" y2="10.2997" layer="1"/>
+<rectangle x1="4.6355" y1="10.2997" x2="5.5753" y2="10.3251" layer="1"/>
+<rectangle x1="5.8547" y1="10.2997" x2="6.6675" y2="10.3251" layer="1"/>
+<rectangle x1="6.9469" y1="10.2997" x2="7.8867" y2="10.3251" layer="1"/>
+<rectangle x1="4.6355" y1="10.3251" x2="5.5499" y2="10.3505" layer="1"/>
+<rectangle x1="5.8547" y1="10.3251" x2="6.6675" y2="10.3505" layer="1"/>
+<rectangle x1="6.9723" y1="10.3251" x2="7.8867" y2="10.3505" layer="1"/>
+<rectangle x1="4.6355" y1="10.3505" x2="5.5245" y2="10.3759" layer="1"/>
+<rectangle x1="5.8547" y1="10.3505" x2="6.6675" y2="10.3759" layer="1"/>
+<rectangle x1="6.9977" y1="10.3505" x2="7.8867" y2="10.3759" layer="1"/>
+<rectangle x1="4.6355" y1="10.3759" x2="5.4991" y2="10.4013" layer="1"/>
+<rectangle x1="5.8547" y1="10.3759" x2="6.6675" y2="10.4013" layer="1"/>
+<rectangle x1="7.0231" y1="10.3759" x2="7.8867" y2="10.4013" layer="1"/>
+<rectangle x1="4.6355" y1="10.4013" x2="5.4737" y2="10.4267" layer="1"/>
+<rectangle x1="5.8547" y1="10.4013" x2="6.6675" y2="10.4267" layer="1"/>
+<rectangle x1="7.0485" y1="10.4013" x2="7.8867" y2="10.4267" layer="1"/>
+<rectangle x1="4.6355" y1="10.4267" x2="5.4483" y2="10.4521" layer="1"/>
+<rectangle x1="5.8547" y1="10.4267" x2="6.6675" y2="10.4521" layer="1"/>
+<rectangle x1="7.0739" y1="10.4267" x2="7.8867" y2="10.4521" layer="1"/>
+<rectangle x1="4.6355" y1="10.4521" x2="5.4229" y2="10.4775" layer="1"/>
+<rectangle x1="5.8547" y1="10.4521" x2="6.6675" y2="10.4775" layer="1"/>
+<rectangle x1="7.0993" y1="10.4521" x2="7.8867" y2="10.4775" layer="1"/>
+<rectangle x1="4.6355" y1="10.4775" x2="5.3975" y2="10.5029" layer="1"/>
+<rectangle x1="5.8547" y1="10.4775" x2="6.6675" y2="10.5029" layer="1"/>
+<rectangle x1="7.1247" y1="10.4775" x2="7.8867" y2="10.5029" layer="1"/>
+<rectangle x1="4.6355" y1="10.5029" x2="5.3721" y2="10.5283" layer="1"/>
+<rectangle x1="5.8547" y1="10.5029" x2="6.6675" y2="10.5283" layer="1"/>
+<rectangle x1="7.1501" y1="10.5029" x2="7.8867" y2="10.5283" layer="1"/>
+<rectangle x1="4.6355" y1="10.5283" x2="5.3467" y2="10.5537" layer="1"/>
+<rectangle x1="5.8547" y1="10.5283" x2="6.6675" y2="10.5537" layer="1"/>
+<rectangle x1="7.1755" y1="10.5283" x2="7.8867" y2="10.5537" layer="1"/>
+<rectangle x1="4.6355" y1="10.5537" x2="5.3213" y2="10.5791" layer="1"/>
+<rectangle x1="5.8547" y1="10.5537" x2="6.6675" y2="10.5791" layer="1"/>
+<rectangle x1="7.2009" y1="10.5537" x2="7.8867" y2="10.5791" layer="1"/>
+<rectangle x1="4.6355" y1="10.5791" x2="5.2959" y2="10.6045" layer="1"/>
+<rectangle x1="5.8547" y1="10.5791" x2="6.6675" y2="10.6045" layer="1"/>
+<rectangle x1="7.2263" y1="10.5791" x2="7.8867" y2="10.6045" layer="1"/>
+<rectangle x1="4.6355" y1="10.6045" x2="5.2705" y2="10.6299" layer="1"/>
+<rectangle x1="5.8547" y1="10.6045" x2="6.6675" y2="10.6299" layer="1"/>
+<rectangle x1="7.2517" y1="10.6045" x2="7.8867" y2="10.6299" layer="1"/>
+<rectangle x1="4.6355" y1="10.6299" x2="5.2705" y2="10.6553" layer="1"/>
+<rectangle x1="5.8547" y1="10.6299" x2="6.6675" y2="10.6553" layer="1"/>
+<rectangle x1="7.2517" y1="10.6299" x2="7.8867" y2="10.6553" layer="1"/>
+<rectangle x1="4.6355" y1="10.6553" x2="5.2705" y2="10.6807" layer="1"/>
+<rectangle x1="5.8547" y1="10.6553" x2="6.6675" y2="10.6807" layer="1"/>
+<rectangle x1="7.2517" y1="10.6553" x2="7.8867" y2="10.6807" layer="1"/>
+<rectangle x1="4.6355" y1="10.6807" x2="5.2705" y2="10.7061" layer="1"/>
+<rectangle x1="5.8547" y1="10.6807" x2="6.6675" y2="10.7061" layer="1"/>
+<rectangle x1="7.2517" y1="10.6807" x2="7.8867" y2="10.7061" layer="1"/>
+<rectangle x1="4.6355" y1="10.7061" x2="5.2705" y2="10.7315" layer="1"/>
+<rectangle x1="5.8547" y1="10.7061" x2="6.6675" y2="10.7315" layer="1"/>
+<rectangle x1="7.2517" y1="10.7061" x2="7.8867" y2="10.7315" layer="1"/>
+<rectangle x1="4.6355" y1="10.7315" x2="5.2705" y2="10.7569" layer="1"/>
+<rectangle x1="5.8547" y1="10.7315" x2="6.6675" y2="10.7569" layer="1"/>
+<rectangle x1="7.2517" y1="10.7315" x2="7.8867" y2="10.7569" layer="1"/>
+<rectangle x1="4.6355" y1="10.7569" x2="5.2705" y2="10.7823" layer="1"/>
+<rectangle x1="5.8547" y1="10.7569" x2="6.6675" y2="10.7823" layer="1"/>
+<rectangle x1="7.2517" y1="10.7569" x2="7.8867" y2="10.7823" layer="1"/>
+<rectangle x1="4.6355" y1="10.7823" x2="5.2705" y2="10.8077" layer="1"/>
+<rectangle x1="5.8547" y1="10.7823" x2="6.6675" y2="10.8077" layer="1"/>
+<rectangle x1="7.2517" y1="10.7823" x2="7.8867" y2="10.8077" layer="1"/>
+<rectangle x1="4.6355" y1="10.8077" x2="5.2705" y2="10.8331" layer="1"/>
+<rectangle x1="5.8547" y1="10.8077" x2="6.6675" y2="10.8331" layer="1"/>
+<rectangle x1="7.2517" y1="10.8077" x2="7.8867" y2="10.8331" layer="1"/>
+<rectangle x1="4.6355" y1="10.8331" x2="5.2705" y2="10.8585" layer="1"/>
+<rectangle x1="5.8547" y1="10.8331" x2="6.6675" y2="10.8585" layer="1"/>
+<rectangle x1="7.2517" y1="10.8331" x2="7.8867" y2="10.8585" layer="1"/>
+<rectangle x1="4.6355" y1="10.8585" x2="5.2705" y2="10.8839" layer="1"/>
+<rectangle x1="5.8547" y1="10.8585" x2="6.6675" y2="10.8839" layer="1"/>
+<rectangle x1="7.2517" y1="10.8585" x2="7.8867" y2="10.8839" layer="1"/>
+<rectangle x1="4.6355" y1="10.8839" x2="5.2705" y2="10.9093" layer="1"/>
+<rectangle x1="5.8547" y1="10.8839" x2="6.6675" y2="10.9093" layer="1"/>
+<rectangle x1="7.2517" y1="10.8839" x2="7.8867" y2="10.9093" layer="1"/>
+<rectangle x1="4.6355" y1="10.9093" x2="5.2705" y2="10.9347" layer="1"/>
+<rectangle x1="5.8547" y1="10.9093" x2="6.6675" y2="10.9347" layer="1"/>
+<rectangle x1="7.2517" y1="10.9093" x2="7.8867" y2="10.9347" layer="1"/>
+<rectangle x1="4.6355" y1="10.9347" x2="5.2705" y2="10.9601" layer="1"/>
+<rectangle x1="5.8547" y1="10.9347" x2="6.6675" y2="10.9601" layer="1"/>
+<rectangle x1="7.2517" y1="10.9347" x2="7.8867" y2="10.9601" layer="1"/>
+<rectangle x1="4.6355" y1="10.9601" x2="5.2705" y2="10.9855" layer="1"/>
+<rectangle x1="5.8547" y1="10.9601" x2="6.6675" y2="10.9855" layer="1"/>
+<rectangle x1="7.2517" y1="10.9601" x2="7.8867" y2="10.9855" layer="1"/>
+<rectangle x1="4.6355" y1="10.9855" x2="5.2705" y2="11.0109" layer="1"/>
+<rectangle x1="5.8547" y1="10.9855" x2="6.6675" y2="11.0109" layer="1"/>
+<rectangle x1="7.2517" y1="10.9855" x2="7.8867" y2="11.0109" layer="1"/>
+<rectangle x1="4.6355" y1="11.0109" x2="5.2705" y2="11.0363" layer="1"/>
+<rectangle x1="5.8547" y1="11.0109" x2="6.6675" y2="11.0363" layer="1"/>
+<rectangle x1="7.2517" y1="11.0109" x2="7.8867" y2="11.0363" layer="1"/>
+<rectangle x1="4.6355" y1="11.0363" x2="5.2705" y2="11.0617" layer="1"/>
+<rectangle x1="5.8547" y1="11.0363" x2="6.6675" y2="11.0617" layer="1"/>
+<rectangle x1="7.2517" y1="11.0363" x2="7.8867" y2="11.0617" layer="1"/>
+<rectangle x1="4.6355" y1="11.0617" x2="5.2705" y2="11.0871" layer="1"/>
+<rectangle x1="5.8547" y1="11.0617" x2="6.6675" y2="11.0871" layer="1"/>
+<rectangle x1="7.2517" y1="11.0617" x2="7.8867" y2="11.0871" layer="1"/>
+<rectangle x1="4.6355" y1="11.0871" x2="5.2705" y2="11.1125" layer="1"/>
+<rectangle x1="5.8547" y1="11.0871" x2="6.6675" y2="11.1125" layer="1"/>
+<rectangle x1="7.2517" y1="11.0871" x2="7.8867" y2="11.1125" layer="1"/>
+<rectangle x1="4.6355" y1="11.1125" x2="5.2705" y2="11.1379" layer="1"/>
+<rectangle x1="5.8547" y1="11.1125" x2="6.6675" y2="11.1379" layer="1"/>
+<rectangle x1="7.2517" y1="11.1125" x2="7.8867" y2="11.1379" layer="1"/>
+<rectangle x1="4.6355" y1="11.1379" x2="5.2705" y2="11.1633" layer="1"/>
+<rectangle x1="5.8547" y1="11.1379" x2="6.6675" y2="11.1633" layer="1"/>
+<rectangle x1="7.2517" y1="11.1379" x2="7.8867" y2="11.1633" layer="1"/>
+<rectangle x1="4.6355" y1="11.1633" x2="5.2705" y2="11.1887" layer="1"/>
+<rectangle x1="5.8547" y1="11.1633" x2="6.6675" y2="11.1887" layer="1"/>
+<rectangle x1="7.2517" y1="11.1633" x2="7.8867" y2="11.1887" layer="1"/>
+<rectangle x1="4.6355" y1="11.1887" x2="5.2705" y2="11.2141" layer="1"/>
+<rectangle x1="5.8547" y1="11.1887" x2="6.6675" y2="11.2141" layer="1"/>
+<rectangle x1="7.2517" y1="11.1887" x2="7.8867" y2="11.2141" layer="1"/>
+<rectangle x1="4.6355" y1="11.2141" x2="5.2705" y2="11.2395" layer="1"/>
+<rectangle x1="5.8801" y1="11.2141" x2="6.6421" y2="11.2395" layer="1"/>
+<rectangle x1="7.2517" y1="11.2141" x2="7.8867" y2="11.2395" layer="1"/>
+<rectangle x1="4.6355" y1="11.2395" x2="5.2705" y2="11.2649" layer="1"/>
+<rectangle x1="5.9055" y1="11.2395" x2="6.6167" y2="11.2649" layer="1"/>
+<rectangle x1="7.2517" y1="11.2395" x2="7.8867" y2="11.2649" layer="1"/>
+<rectangle x1="4.6355" y1="11.2649" x2="5.2705" y2="11.2903" layer="1"/>
+<rectangle x1="5.9309" y1="11.2649" x2="6.5913" y2="11.2903" layer="1"/>
+<rectangle x1="7.2517" y1="11.2649" x2="7.8867" y2="11.2903" layer="1"/>
+<rectangle x1="4.6355" y1="11.2903" x2="5.2705" y2="11.3157" layer="1"/>
+<rectangle x1="5.9563" y1="11.2903" x2="6.5659" y2="11.3157" layer="1"/>
+<rectangle x1="7.2517" y1="11.2903" x2="7.8867" y2="11.3157" layer="1"/>
+<rectangle x1="4.6355" y1="11.3157" x2="5.2705" y2="11.3411" layer="1"/>
+<rectangle x1="5.9817" y1="11.3157" x2="6.5405" y2="11.3411" layer="1"/>
+<rectangle x1="7.2517" y1="11.3157" x2="7.8867" y2="11.3411" layer="1"/>
+<rectangle x1="4.6355" y1="11.3411" x2="5.2705" y2="11.3665" layer="1"/>
+<rectangle x1="6.0071" y1="11.3411" x2="6.5151" y2="11.3665" layer="1"/>
+<rectangle x1="7.2517" y1="11.3411" x2="7.8867" y2="11.3665" layer="1"/>
+<rectangle x1="4.6355" y1="11.3665" x2="5.2705" y2="11.3919" layer="1"/>
+<rectangle x1="6.0325" y1="11.3665" x2="6.4897" y2="11.3919" layer="1"/>
+<rectangle x1="7.2517" y1="11.3665" x2="7.8867" y2="11.3919" layer="1"/>
+<rectangle x1="4.6355" y1="11.3919" x2="5.2705" y2="11.4173" layer="1"/>
+<rectangle x1="6.0579" y1="11.3919" x2="6.4643" y2="11.4173" layer="1"/>
+<rectangle x1="7.2517" y1="11.3919" x2="7.8867" y2="11.4173" layer="1"/>
+<rectangle x1="4.6355" y1="11.4173" x2="5.2705" y2="11.4427" layer="1"/>
+<rectangle x1="7.2517" y1="11.4173" x2="7.8867" y2="11.4427" layer="1"/>
+<rectangle x1="4.6355" y1="11.4427" x2="5.2959" y2="11.4681" layer="1"/>
+<rectangle x1="7.2263" y1="11.4427" x2="7.8867" y2="11.4681" layer="1"/>
+<rectangle x1="4.6355" y1="11.4681" x2="5.3213" y2="11.4935" layer="1"/>
+<rectangle x1="7.2009" y1="11.4681" x2="7.8867" y2="11.4935" layer="1"/>
+<rectangle x1="4.6355" y1="11.4935" x2="5.3467" y2="11.5189" layer="1"/>
+<rectangle x1="7.1755" y1="11.4935" x2="7.8867" y2="11.5189" layer="1"/>
+<rectangle x1="4.6355" y1="11.5189" x2="5.3721" y2="11.5443" layer="1"/>
+<rectangle x1="7.1501" y1="11.5189" x2="7.8867" y2="11.5443" layer="1"/>
+<rectangle x1="4.6355" y1="11.5443" x2="5.3975" y2="11.5697" layer="1"/>
+<rectangle x1="7.1247" y1="11.5443" x2="7.8867" y2="11.5697" layer="1"/>
+<rectangle x1="4.6355" y1="11.5697" x2="5.4229" y2="11.5951" layer="1"/>
+<rectangle x1="7.0993" y1="11.5697" x2="7.8867" y2="11.5951" layer="1"/>
+<rectangle x1="4.6355" y1="11.5951" x2="5.4483" y2="11.6205" layer="1"/>
+<rectangle x1="7.0739" y1="11.5951" x2="7.8867" y2="11.6205" layer="1"/>
+<rectangle x1="4.6355" y1="11.6205" x2="5.4737" y2="11.6459" layer="1"/>
+<rectangle x1="7.0485" y1="11.6205" x2="7.8867" y2="11.6459" layer="1"/>
+<rectangle x1="4.6355" y1="11.6459" x2="5.4991" y2="11.6713" layer="1"/>
+<rectangle x1="7.0231" y1="11.6459" x2="7.8867" y2="11.6713" layer="1"/>
+<rectangle x1="4.6355" y1="11.6713" x2="5.5245" y2="11.6967" layer="1"/>
+<rectangle x1="6.9977" y1="11.6713" x2="7.8867" y2="11.6967" layer="1"/>
+<rectangle x1="4.6355" y1="11.6967" x2="5.5499" y2="11.7221" layer="1"/>
+<rectangle x1="6.9723" y1="11.6967" x2="7.8867" y2="11.7221" layer="1"/>
+<rectangle x1="4.6355" y1="11.7221" x2="5.5753" y2="11.7475" layer="1"/>
+<rectangle x1="6.9469" y1="11.7221" x2="7.8867" y2="11.7475" layer="1"/>
+<rectangle x1="4.6355" y1="11.7475" x2="5.6007" y2="11.7729" layer="1"/>
+<rectangle x1="6.9215" y1="11.7475" x2="7.8867" y2="11.7729" layer="1"/>
+<rectangle x1="4.6355" y1="11.7729" x2="5.6261" y2="11.7983" layer="1"/>
+<rectangle x1="6.8961" y1="11.7729" x2="7.8867" y2="11.7983" layer="1"/>
+<rectangle x1="4.6355" y1="11.7983" x2="5.6515" y2="11.8237" layer="1"/>
+<rectangle x1="6.8707" y1="11.7983" x2="7.8867" y2="11.8237" layer="1"/>
+<rectangle x1="4.6355" y1="11.8237" x2="5.6769" y2="11.8491" layer="1"/>
+<rectangle x1="6.8453" y1="11.8237" x2="7.8867" y2="11.8491" layer="1"/>
+<rectangle x1="4.6355" y1="11.8491" x2="5.7023" y2="11.8745" layer="1"/>
+<rectangle x1="6.8199" y1="11.8491" x2="7.8867" y2="11.8745" layer="1"/>
+<rectangle x1="4.6355" y1="11.8745" x2="5.7277" y2="11.8999" layer="1"/>
+<rectangle x1="6.8199" y1="11.8745" x2="7.8867" y2="11.8999" layer="1"/>
+<rectangle x1="4.6355" y1="11.8999" x2="5.7531" y2="11.9253" layer="1"/>
+<rectangle x1="6.7945" y1="11.8999" x2="7.8867" y2="11.9253" layer="1"/>
+<rectangle x1="4.6355" y1="11.9253" x2="5.7785" y2="11.9507" layer="1"/>
+<rectangle x1="6.7691" y1="11.9253" x2="7.8867" y2="11.9507" layer="1"/>
+<rectangle x1="4.6355" y1="11.9507" x2="5.8039" y2="11.9761" layer="1"/>
+<rectangle x1="6.7437" y1="11.9507" x2="7.8867" y2="11.9761" layer="1"/>
+<rectangle x1="4.6355" y1="11.9761" x2="5.8293" y2="12.0015" layer="1"/>
+<rectangle x1="6.7183" y1="11.9761" x2="7.8867" y2="12.0015" layer="1"/>
+<rectangle x1="4.6355" y1="12.0015" x2="5.8547" y2="12.0269" layer="1"/>
+<rectangle x1="6.6929" y1="12.0015" x2="7.8867" y2="12.0269" layer="1"/>
+<rectangle x1="4.6355" y1="12.0269" x2="5.8547" y2="12.0523" layer="1"/>
+<rectangle x1="6.6929" y1="12.0269" x2="7.8867" y2="12.0523" layer="1"/>
+<rectangle x1="4.6355" y1="12.0523" x2="5.8547" y2="12.0777" layer="1"/>
+<rectangle x1="6.6929" y1="12.0523" x2="7.8867" y2="12.0777" layer="1"/>
+<rectangle x1="4.6355" y1="12.0777" x2="5.8547" y2="12.1031" layer="1"/>
+<rectangle x1="6.6929" y1="12.0777" x2="7.8867" y2="12.1031" layer="1"/>
+<rectangle x1="4.6355" y1="12.1031" x2="5.8547" y2="12.1285" layer="1"/>
+<rectangle x1="6.6929" y1="12.1031" x2="7.8867" y2="12.1285" layer="1"/>
+<rectangle x1="4.6355" y1="12.1285" x2="5.8547" y2="12.1539" layer="1"/>
+<rectangle x1="6.6929" y1="12.1285" x2="7.8867" y2="12.1539" layer="1"/>
+<rectangle x1="4.6355" y1="12.1539" x2="5.8547" y2="12.1793" layer="1"/>
+<rectangle x1="6.6929" y1="12.1539" x2="7.8867" y2="12.1793" layer="1"/>
+<rectangle x1="4.6355" y1="12.1793" x2="5.8547" y2="12.2047" layer="1"/>
+<rectangle x1="6.6929" y1="12.1793" x2="7.8867" y2="12.2047" layer="1"/>
+<rectangle x1="4.6609" y1="12.2047" x2="5.8547" y2="12.2301" layer="1"/>
+<rectangle x1="6.6929" y1="12.2047" x2="7.8613" y2="12.2301" layer="1"/>
+<rectangle x1="4.6609" y1="12.2301" x2="5.8547" y2="12.2555" layer="1"/>
+<rectangle x1="6.6929" y1="12.2301" x2="7.8613" y2="12.2555" layer="1"/>
+<rectangle x1="4.6609" y1="12.2555" x2="5.8547" y2="12.2809" layer="1"/>
+<rectangle x1="6.6929" y1="12.2555" x2="7.8613" y2="12.2809" layer="1"/>
+<rectangle x1="4.6863" y1="12.2809" x2="5.8547" y2="12.3063" layer="1"/>
+<rectangle x1="6.6929" y1="12.2809" x2="7.8359" y2="12.3063" layer="1"/>
+<rectangle x1="4.6863" y1="12.3063" x2="5.8547" y2="12.3317" layer="1"/>
+<rectangle x1="6.6929" y1="12.3063" x2="7.8359" y2="12.3317" layer="1"/>
+<rectangle x1="4.7117" y1="12.3317" x2="5.8547" y2="12.3571" layer="1"/>
+<rectangle x1="6.6929" y1="12.3317" x2="7.8105" y2="12.3571" layer="1"/>
+<rectangle x1="4.7117" y1="12.3571" x2="5.8547" y2="12.3825" layer="1"/>
+<rectangle x1="6.6929" y1="12.3571" x2="7.8105" y2="12.3825" layer="1"/>
+<rectangle x1="4.7371" y1="12.3825" x2="5.8547" y2="12.4079" layer="1"/>
+<rectangle x1="6.6929" y1="12.3825" x2="7.7851" y2="12.4079" layer="1"/>
+<rectangle x1="4.7625" y1="12.4079" x2="5.8547" y2="12.4333" layer="1"/>
+<rectangle x1="6.6929" y1="12.4079" x2="7.7597" y2="12.4333" layer="1"/>
+<rectangle x1="4.7879" y1="12.4333" x2="5.8547" y2="12.4587" layer="1"/>
+<rectangle x1="6.6929" y1="12.4333" x2="7.7343" y2="12.4587" layer="1"/>
+<rectangle x1="4.7879" y1="12.4587" x2="5.8547" y2="12.4841" layer="1"/>
+<rectangle x1="6.6929" y1="12.4587" x2="7.7343" y2="12.4841" layer="1"/>
+<rectangle x1="4.8133" y1="12.4841" x2="5.8547" y2="12.5095" layer="1"/>
+<rectangle x1="6.6929" y1="12.4841" x2="7.7089" y2="12.5095" layer="1"/>
+<rectangle x1="4.8387" y1="12.5095" x2="5.8547" y2="12.5349" layer="1"/>
+<rectangle x1="6.6929" y1="12.5095" x2="7.6835" y2="12.5349" layer="1"/>
+<rectangle x1="4.8641" y1="12.5349" x2="5.8547" y2="12.5603" layer="1"/>
+<rectangle x1="6.6929" y1="12.5349" x2="7.6581" y2="12.5603" layer="1"/>
+<rectangle x1="4.9149" y1="12.5603" x2="5.8547" y2="12.5857" layer="1"/>
+<rectangle x1="6.6929" y1="12.5603" x2="7.6073" y2="12.5857" layer="1"/>
+<rectangle x1="4.9403" y1="12.5857" x2="5.8547" y2="12.6111" layer="1"/>
+<rectangle x1="6.6929" y1="12.5857" x2="7.5819" y2="12.6111" layer="1"/>
+<rectangle x1="4.9657" y1="12.6111" x2="5.8547" y2="12.6365" layer="1"/>
+<rectangle x1="6.6929" y1="12.6111" x2="7.5565" y2="12.6365" layer="1"/>
+<rectangle x1="5.0165" y1="12.6365" x2="5.8547" y2="12.6619" layer="1"/>
+<rectangle x1="6.6929" y1="12.6365" x2="7.5057" y2="12.6619" layer="1"/>
+<rectangle x1="5.0673" y1="12.6619" x2="5.8547" y2="12.6873" layer="1"/>
+<rectangle x1="6.6929" y1="12.6619" x2="7.4549" y2="12.6873" layer="1"/>
+<rectangle x1="5.1435" y1="12.6873" x2="5.8547" y2="12.7127" layer="1"/>
+<rectangle x1="6.6929" y1="12.6873" x2="7.3787" y2="12.7127" layer="1"/>
+<text x="5.08" y="1.27" size="1.778" layer="1" font="vector">SO-8</text>
+<wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="20"/>
+<wire x1="0" y1="12.7" x2="17.78" y2="12.7" width="0.254" layer="20"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="0" width="0.254" layer="20"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="20"/>
 </plain>
 <libraries>
 <library name="jumper">
@@ -627,68 +631,68 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="JP1" library="jumper" package="JP4" value="" x="13.97" y="10.16" smashed="yes" rot="R270">
-<attribute name="VALUE" x="9.906" y="15.24" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="JP1" library="jumper" package="JP4" value="" x="2.54" y="6.35" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-1.524" y="11.43" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="JP2" library="jumper" package="JP4" value="" x="26.67" y="10.16" smashed="yes" rot="R90">
-<attribute name="VALUE" x="30.734" y="5.08" size="1.27" layer="27" ratio="10" rot="R90"/>
+<element name="JP2" library="jumper" package="JP4" value="" x="15.24" y="6.35" smashed="yes" rot="R90">
+<attribute name="VALUE" x="19.304" y="1.27" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="IC1" library="maxim" package="SO08" value="" x="20.32" y="10.16" smashed="yes" rot="R270">
-<attribute name="OC_NEWARK" value="unknown" x="20.32" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="20.32" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="" x="20.32" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="20.32" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="18.288" y="6.223" size="1.27" layer="27" ratio="10"/>
+<element name="IC1" library="maxim" package="SO08" value="" x="8.89" y="6.35" smashed="yes" rot="R270">
+<attribute name="OC_NEWARK" value="unknown" x="8.89" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="8.89" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="8.89" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="8.89" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="6.858" y="2.413" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="IC1" pad="1"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="17.2466" y1="12.065" x2="15.875" y2="12.065" width="0.4064" layer="1"/>
-<wire x1="15.875" y1="12.065" x2="13.97" y2="13.97" width="0.4064" layer="1"/>
+<wire x1="5.8166" y1="8.255" x2="4.445" y2="8.255" width="0.4064" layer="1"/>
+<wire x1="4.445" y1="8.255" x2="2.54" y2="10.16" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC1" pad="2"/>
 <contactref element="JP1" pad="2"/>
-<wire x1="17.2466" y1="10.795" x2="14.605" y2="10.795" width="0.4064" layer="1"/>
-<wire x1="14.605" y1="10.795" x2="13.97" y2="11.43" width="0.4064" layer="1"/>
+<wire x1="5.8166" y1="6.985" x2="3.175" y2="6.985" width="0.4064" layer="1"/>
+<wire x1="3.175" y1="6.985" x2="2.54" y2="7.62" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC1" pad="3"/>
 <contactref element="JP1" pad="3"/>
-<wire x1="17.2466" y1="9.525" x2="14.605" y2="9.525" width="0.4064" layer="1"/>
-<wire x1="14.605" y1="9.525" x2="13.97" y2="8.89" width="0.4064" layer="1"/>
+<wire x1="5.8166" y1="5.715" x2="3.175" y2="5.715" width="0.4064" layer="1"/>
+<wire x1="3.175" y1="5.715" x2="2.54" y2="5.08" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="JP1" pad="4"/>
 <contactref element="IC1" pad="4"/>
-<wire x1="17.2466" y1="8.255" x2="15.875" y2="8.255" width="0.4064" layer="1"/>
-<wire x1="15.875" y1="8.255" x2="13.97" y2="6.35" width="0.4064" layer="1"/>
+<wire x1="5.8166" y1="4.445" x2="4.445" y2="4.445" width="0.4064" layer="1"/>
+<wire x1="4.445" y1="4.445" x2="2.54" y2="2.54" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC1" pad="5"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="23.3934" y1="8.255" x2="24.765" y2="8.255" width="0.4064" layer="1"/>
-<wire x1="24.765" y1="8.255" x2="26.67" y2="6.35" width="0.4064" layer="1"/>
+<wire x1="11.9634" y1="4.445" x2="13.335" y2="4.445" width="0.4064" layer="1"/>
+<wire x1="13.335" y1="4.445" x2="15.24" y2="2.54" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC1" pad="6"/>
 <contactref element="JP2" pad="2"/>
-<wire x1="23.3934" y1="9.525" x2="26.035" y2="9.525" width="0.4064" layer="1"/>
-<wire x1="26.035" y1="9.525" x2="26.67" y2="8.89" width="0.4064" layer="1"/>
+<wire x1="11.9634" y1="5.715" x2="14.605" y2="5.715" width="0.4064" layer="1"/>
+<wire x1="14.605" y1="5.715" x2="15.24" y2="5.08" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="IC1" pad="7"/>
 <contactref element="JP2" pad="3"/>
-<wire x1="23.3934" y1="10.795" x2="26.035" y2="10.795" width="0.4064" layer="1"/>
-<wire x1="26.035" y1="10.795" x2="26.67" y2="11.43" width="0.4064" layer="1"/>
+<wire x1="11.9634" y1="6.985" x2="14.605" y2="6.985" width="0.4064" layer="1"/>
+<wire x1="14.605" y1="6.985" x2="15.24" y2="7.62" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="IC1" pad="8"/>
 <contactref element="JP2" pad="4"/>
-<wire x1="23.3934" y1="12.065" x2="24.765" y2="12.065" width="0.4064" layer="1"/>
-<wire x1="24.765" y1="12.065" x2="26.67" y2="13.97" width="0.4064" layer="1"/>
+<wire x1="11.9634" y1="8.255" x2="13.335" y2="8.255" width="0.4064" layer="1"/>
+<wire x1="13.335" y1="8.255" x2="15.24" y2="10.16" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>
